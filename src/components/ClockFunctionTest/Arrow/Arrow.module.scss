@@ -1,0 +1,29 @@
+.hours {
+  position: absolute;
+  top: 0;
+  left: -3px;
+  width: 6px;
+  height: 60px;
+  background-color: black;
+  transform: translate(0px, -60px);
+}
+
+.minutes {
+  position: absolute;
+  top: 0;
+  left: -3px;
+  width: 3px;
+  height: 75px;
+  background-color: black;
+  transform: translate(0px, -75px);
+}
+
+.seconds {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 90px;
+  background-color: black;
+  transform: translate(0px, -90px);
+}
